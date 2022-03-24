@@ -18,10 +18,16 @@
     <header class="cabecalho">
       <button class="cabecalho__menu" aria-label="menu"><i></i></button>
       <img class="cabecalho__logo" src="/img/logo.svg" alt="" />
+      <div class="perfil">
+        <img src="/img/perfil-de-usuario.png" alt="" class="perfil_img" />
+        <p class="perfil_nome">Nome</p>
+        <div class="perfil_seta"></div>
+      </div>
       <button class="cabecalho_notificacao" aria-label="notificacao">
         <i></i>
       </button>
     </header>
+
     <nav class="menu-lateral">
       <img src="/img/logo.svg" class="menu-lateral__logo" alt="Logotipo" />
       <a href="" class="menu-lateral__link menu-icone__inicio">Inicio</a>
@@ -54,7 +60,44 @@
         </div>
       </article>
 
-      <div class="destaque"></div>
+      <div class="destaque_videos">
+        <div class="titulo_destaque_more">
+          <h3 class="destaque_titulo">Videos Recentes</h3>
+          <a href="" class="destaque_more">Ver Todos</a>
+        </div>
+
+        <img src="/img/miniatura_1.png" alt="" class="destaque_img" />
+        <ul class="destaque_info">
+          <li class="destaque_info_titulo">HZC - Love Machine</li>
+          <li class="destaque_info_autor">Julia Fonseca</li>
+        </ul>
+
+        <img src="/img/miniatura_2.png" alt="" class="destaque_img" />
+        <ul class="destaque_info">
+          <li class="destaque_info_titulo">HZC - Vol.3</li>
+          <li class="destaque_info_autor">Julia Fonseca</li>
+        </ul>
+
+        <img src="/img/miniatura_3.png" alt="" class="destaque_img" />
+        <ul class="destaque_info">
+          <li class="destaque_info_titulo">HZC - Pescaria na Urca</li>
+          <li class="destaque_info_autor">Julia Fonseca</li>
+        </ul>
+
+        <img src="/img/miniatura_4.png" alt="" class="destaque_img" />
+        <ul class="destaque_info">
+          <li class="destaque_info_titulo">
+            Vidalocagi - Guerreiros do Asfalto
+          </li>
+          <li class="destaque_info_autor">Julia Fonseca</li>
+        </ul>
+
+        <img src="/img/miniatura_5.png" alt="" class="destaque_img" />
+        <ul class="destaque_info">
+          <li class="destaque_info_titulo">HZC - Love Machine</li>
+          <li class="destaque_info_autor">Julia Fonseca</li>
+        </ul>
+      </div>
 
       <h3 class="titulo-secao">Videos mais Vistos</h3>
       <article class="cartao-menor">
@@ -97,7 +140,54 @@
         </div>
       </article>
 
-      <div class="destaque"></div>
+      <div class="destaque_arte">
+        <div class="titulo_destaque_more">
+          <h3 class="destaque_titulo">Novas artes</h3>
+          <a href="" class="destaque_more">Ver Todas</a>
+        </div>
+
+        <img src="/img/miniatura_1.png" alt="" class="destaque_img" />
+        <ul class="destaque_info">
+          <li class="destaque_info_titulo">Sem Titulo 01</li>
+          <li class="destaque_info_autor">Julia Fonseca</li>
+        </ul>
+
+        <img src="/img/miniatura_2.png" alt="" class="destaque_img" />
+        <ul class="destaque_info">
+          <li class="destaque_info_titulo">Sem Titulo 02</li>
+          <li class="destaque_info_autor">Julia Fonseca</li>
+        </ul>
+
+        <img src="/img/miniatura_3.png" alt="" class="destaque_img" />
+        <ul class="destaque_info">
+          <li class="destaque_info_titulo">Seguranca</li>
+          <li class="destaque_info_autor">Julia Fonseca</li>
+        </ul>
+
+        <img src="/img/miniatura_4.png" alt="" class="destaque_img" />
+        <ul class="destaque_info">
+          <li class="destaque_info_titulo">Malunguisse</li>
+          <li class="destaque_info_autor">Julia Fonseca</li>
+        </ul>
+
+        <img src="/img/miniatura_5.png" alt="" class="destaque_img" />
+        <ul class="destaque_info">
+          <li class="destaque_info_titulo">Coroa da coverse</li>
+          <li class="destaque_info_autor">Julia Fonseca</li>
+        </ul>
+
+        <img src="/img/miniatura_5.png" alt="" class="destaque_img" />
+        <ul class="destaque_info">
+          <li class="destaque_info_titulo">Seguranca</li>
+          <li class="destaque_info_autor">Julia Fonseca</li>
+        </ul>
+
+        <img src="/img/miniatura_5.png" alt="" class="destaque_img" />
+        <ul class="destaque_info">
+          <li class="destaque_info_titulo">Sem titulo 03</li>
+          <li class="destaque_info_autor">Julia Fonseca</li>
+        </ul>
+      </div>
 
       <article class="cartao">
         <img src="/img/banner-mobile_2.png" alt="" class="cartao__img" />
@@ -106,7 +196,7 @@
           <h3 class="cartao__titulo">Only Zikas - Lagoa Dompa Club</h3>
           <p class="cartao__perfil">Bruno Lopes</p>
 
-          <p class="cartao__info cartao__info--tempo">$ 33.33</p>
+          <p class="cartao__info">$ 33.33</p>
           <p class="cartao__info cartao__info--visualizacao">
             53 visualizacoes
           </p>
@@ -124,7 +214,7 @@
         <div class="cartao__conteudo">
           <p class="cartao__perfil">André Soares</p>
           <h3 class="cartao__titulo">IBM</h3>
-          <p class="cartao__info cartao__info--tempo">$ 33.33</p>
+          <p class="cartao__info">$ 33.33</p>
           <button class="cartao__botao cartao__botao--buy"></button>
         </div>
       </article>
@@ -134,7 +224,7 @@
         <div class="cartao__conteudo">
           <p class="cartao__perfil">Bruno Lopes</p>
           <h3 class="cartao__titulo">Huflez Crew Philosophy Club</h3>
-          <p class="cartao__info cartao__info--tempo">$ 33.33</p>
+          <p class="cartao__info">$ 33.33</p>
           <button class="cartao__botao cartao__botao--buy"></button>
         </div>
       </article>
@@ -144,7 +234,7 @@
         <div class="cartao__conteudo">
           <p class="cartao__perfil">Luiza Sampaio</p>
           <h3 class="cartao__titulo">Corujita noturna</h3>
-          <p class="cartao__info cartao__info--tempo">$ 33.33</p>
+          <p class="cartao__info">$ 33.33</p>
           <button class="cartao__botao cartao__botao--buy"></button>
         </div>
       </article>
@@ -154,7 +244,7 @@
         <div class="cartao__conteudo">
           <p class="cartao__perfil">Bruno Lopes</p>
           <h3 class="cartao__titulo">GGG - Gatin G Gorro</h3>
-          <p class="cartao__info cartao__info--tempo">$ 33.33</p>
+          <p class="cartao__info">$ 33.33</p>
           <button class="cartao__botao cartao__botao--buy"></button>
         </div>
       </article>

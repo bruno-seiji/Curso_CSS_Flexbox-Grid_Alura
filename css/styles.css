@@ -18,6 +18,10 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
 }
 
+.perfil {
+  display: none;
+}
+
 .cabecalho__menu i::before {
   content: '\e904';
   font-size: 1.5rem;
@@ -183,6 +187,7 @@ body {
   border-radius: 0.7rem;
   font-size: 0.9rem;
   justify-self: flex-end;
+  align-self: center;
 }
 .cartao__botao--play::before {
   content: '\e90b';
@@ -222,6 +227,7 @@ body {
 
   .cabecalho {
     grid-column-start: 2;
+    justify-content: flex-end;
   }
 
   .menu-lateral__logo {
@@ -270,12 +276,88 @@ body {
     width: 10rem;
   }
 
-  .destaque {
+  .destaque_videos {
     display: grid;
-    height: 29rem;
+    height: 25rem;
     background-color: #2c343a;
     border-radius: 1rem;
     grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(11, auto);
+    grid-template-rows: repeat(6, 3rem);
+    gap: 1rem;
+    align-items: center;
+    padding: 1.25rem 1rem;
+  }
+
+  .destaque_arte {
+    display: grid;
+    height: 31rem;
+    background-color: #2c343a;
+    border-radius: 1rem;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(8, 3rem);
+    gap: 1rem;
+    align-items: center;
+    padding: 1.25rem 1rem;
+  }
+
+  .titulo_destaque_more {
+    grid-column: span 2;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .destaque_titulo {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  .destaque_more {
+    font-size: 0.87rem;
+    color: #0480dc;
+    font-weight: 700;
+  }
+
+  .destaque_img {
+    width: 2rem;
+  }
+
+  .destaque_info {
+    font-size: 0.87rem;
+    display: grid;
+    grid-template-rows: auto auto;
+    height: 100%;
+  }
+
+  .destaque_info li {
+    display: flex;
+    align-items: center;
+    font-size: 0.87rem;
+  }
+
+  .destaque_info_titulo {
+    font-weight: 700;
+    color: white;
+  }
+
+  .destaque_info_autor {
+    font-weight: 400;
+    color: #95999c;
+  }
+
+  .perfil {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 11rem ;
+  }
+
+  .perfil_seta::before {
+    content: '\e90d';
+    font-size: 1.5rem;
+  }
+
+  .perfil_img {
+    background-color: white;
+    width: 2rem;
   }
 }
