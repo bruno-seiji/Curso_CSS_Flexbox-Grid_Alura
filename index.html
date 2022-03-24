@@ -10,24 +10,20 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
     />
-    <link rel="stylesheet" href="/assets/css/reset.css" />
-    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
     <title>Document</title>
   </head>
   <body>
     <header class="cabecalho">
       <button class="cabecalho__menu" aria-label="menu"><i></i></button>
-      <img class="cabecalho__logo" src="/assets/img/logo.svg" alt="" />
+      <img class="cabecalho__logo" src="/img/logo.svg" alt="" />
       <button class="cabecalho_notificacao" aria-label="notificacao">
         <i></i>
       </button>
     </header>
     <nav class="menu-lateral">
-      <img
-        src="/assets/img/logo.svg"
-        class="menu-lateral__logo"
-        alt="Logotipo"
-      />
+      <img src="/img/logo.svg" class="menu-lateral__logo" alt="Logotipo" />
       <a href="" class="menu-lateral__link menu-icone__inicio">Inicio</a>
       <a href="" class="menu-lateral__link menu-icone__videos">Videos</a>
       <a href="" class="menu-lateral__link menu-icone__picos">Picos</a>
@@ -37,7 +33,133 @@
       <a href="" class="menu-lateral__link menu-icone__camisas">Camisas</a>
       <a href="" class="menu-lateral__link menu-icone__pinturas">Pinturas</a>
     </nav>
+    <main class="principal">
+      <h2 class="titulo-pagina">Inicio</h2>
+      <article class="cartao">
+        <img src="/img/banner-mobile_1.png" alt="" class="cartao__img" />
+        <div class="cartao__conteudo">
+          <div class="cartao__video">Video em destaque</div>
+          <h3 class="cartao__titulo">HZC - Life is.../ 2022</h3>
+          <p class="cartao__perfil">Bruno Lopes</p>
 
-    <script src="/assets/script.js"></script>
+          <p class="cartao__info cartao__info--tempo">33 minutos</p>
+          <p class="cartao__info cartao__info--visualizacao">
+            53 visualizacoes
+          </p>
+          <button
+            class="cartao__botao cartao__botao--play cartao__botao--destaque"
+          >
+            Assistir Agora
+          </button>
+        </div>
+      </article>
+
+      <div class="destaque"></div>
+
+      <h3 class="titulo-secao">Videos mais Vistos</h3>
+      <article class="cartao-menor">
+        <img src="/img/video_1.png" alt="" class="cartao-menor__img" />
+        <div class="cartao__conteudo">
+          <p class="cartao__perfil">André Soares</p>
+          <h3 class="cartao__titulo">HZC - Tudo sem Padrin</h3>
+          <p class="cartao__info cartao__info--tempo">33 minutos</p>
+          <button class="cartao__botao cartao__botao--play"></button>
+        </div>
+      </article>
+
+      <article class="cartao-menor">
+        <img src="/img/video_2.png" alt="" class="cartao-menor__img" />
+        <div class="cartao__conteudo">
+          <p class="cartao__perfil">Bruno Lopez</p>
+          <h3 class="cartao__titulo">HZC - Enter The Hu-flez</h3>
+          <p class="cartao__info cartao__info--tempo">33 minutos</p>
+          <button class="cartao__botao cartao__botao--play"></button>
+        </div>
+      </article>
+
+      <article class="cartao-menor">
+        <img src="/img/video_3.png" alt="" class="cartao-menor__img" />
+        <div class="cartao__conteudo">
+          <p class="cartao__perfil">Luiza Sampaio</p>
+          <h3 class="cartao__titulo">HZC - Vol.3</h3>
+          <p class="cartao__info cartao__info--tempo">33 minutos</p>
+          <button class="cartao__botao cartao__botao--play"></button>
+        </div>
+      </article>
+
+      <article class="cartao-menor">
+        <img src="/img/video_4.png" alt="" class="cartao-menor__img" />
+        <div class="cartao__conteudo">
+          <p class="cartao__perfil">Bruno Lopes</p>
+          <h3 class="cartao__titulo">HZC - Love Machine</h3>
+          <p class="cartao__info cartao__info--tempo">33 minutos</p>
+          <button class="cartao__botao cartao__botao--play"></button>
+        </div>
+      </article>
+
+      <div class="destaque"></div>
+
+      <article class="cartao">
+        <img src="/img/banner-mobile_2.png" alt="" class="cartao__img" />
+        <div class="cartao__conteudo">
+          <div class="cartao__video">Nova arte</div>
+          <h3 class="cartao__titulo">Only Zikas - Lagoa Dompa Club</h3>
+          <p class="cartao__perfil">Bruno Lopes</p>
+
+          <p class="cartao__info cartao__info--tempo">$ 33.33</p>
+          <p class="cartao__info cartao__info--visualizacao">
+            53 visualizacoes
+          </p>
+          <button
+            class="cartao__botao cartao__botao--buy cartao__botao--destaque"
+          >
+            Comprar Agora
+          </button>
+        </div>
+      </article>
+
+      <h3 class="titulo-secao">Camisas mais Recentes</h3>
+      <article class="cartao-menor">
+        <img src="/img/produto_1.png" alt="" class="cartao-menor__img" />
+        <div class="cartao__conteudo">
+          <p class="cartao__perfil">André Soares</p>
+          <h3 class="cartao__titulo">IBM</h3>
+          <p class="cartao__info cartao__info--tempo">$ 33.33</p>
+          <button class="cartao__botao cartao__botao--buy"></button>
+        </div>
+      </article>
+
+      <article class="cartao-menor">
+        <img src="/img/produto_2.png" alt="" class="cartao-menor__img" />
+        <div class="cartao__conteudo">
+          <p class="cartao__perfil">Bruno Lopes</p>
+          <h3 class="cartao__titulo">Huflez Crew Philosophy Club</h3>
+          <p class="cartao__info cartao__info--tempo">$ 33.33</p>
+          <button class="cartao__botao cartao__botao--buy"></button>
+        </div>
+      </article>
+
+      <article class="cartao-menor">
+        <img src="/img/produto_3.png" alt="" class="cartao-menor__img" />
+        <div class="cartao__conteudo">
+          <p class="cartao__perfil">Luiza Sampaio</p>
+          <h3 class="cartao__titulo">Corujita noturna</h3>
+          <p class="cartao__info cartao__info--tempo">$ 33.33</p>
+          <button class="cartao__botao cartao__botao--buy"></button>
+        </div>
+      </article>
+
+      <article class="cartao-menor">
+        <img src="/img/produto_4.png" alt="" class="cartao-menor__img" />
+        <div class="cartao__conteudo">
+          <p class="cartao__perfil">Bruno Lopes</p>
+          <h3 class="cartao__titulo">GGG - Gatin G Gorro</h3>
+          <p class="cartao__info cartao__info--tempo">$ 33.33</p>
+          <button class="cartao__botao cartao__botao--buy"></button>
+        </div>
+      </article>
+    </main>
+
+    <script src="/script.js"></script>
   </body>
 </html>
