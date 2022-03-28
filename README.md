@@ -1,3 +1,15 @@
 # Projeto-HZC-Alura
 ---
-## Projeto desenvolvido em aula de Flex-box e Grid (responsividade) pela Alura
+## Obejtivo
+  <p>Aprimorar conceitos de Flex-box e Grid
+  <p> Projeto desenvolvido em aula de Flex-box e Grid (responsividade) pela Alura
+
+
+
+
+
+
+
+
+
+
