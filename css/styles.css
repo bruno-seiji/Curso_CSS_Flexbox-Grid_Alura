@@ -208,6 +208,11 @@ body {
   font-size: 1.5rem;
 }
 
+.destaque_videos,
+.destaque_arte {
+  display: none;
+}
+
 /*-----------------Responsividade-------------------*/
 
 @media screen and (min-width: 1000px) {
@@ -348,7 +353,7 @@ body {
     display: flex;
     align-items: center;
     gap: 1rem;
-    width: 11rem ;
+    width: 11rem;
   }
 
   .perfil_seta::before {
